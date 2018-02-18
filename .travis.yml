@@ -1,0 +1,11 @@
+# Not really used right now but if we ever do some auto-generation/verification
+# of things then we can use travis for that.
+
+language: bash
+
+services:
+
+before_install:
+  
+script:
+  tools/verify-all.sh
